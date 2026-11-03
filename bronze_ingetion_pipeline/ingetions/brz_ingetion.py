@@ -10,6 +10,7 @@ def full_df() :
 
     return df 
 
+
 @dlt.table(name= 'patient') 
 def patient():
     df = dlt.read_stream('full_df')
